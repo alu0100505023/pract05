@@ -34,7 +34,7 @@ class Fraccion
   		end
   
  	def -(other)
-    		n = (@n * other.d) + (@d * other.n)
+    		n = (@n * other.d) - (@d * other.n)
     		d = @d * other.d
     		s = Fraccion.new(n, d)
     		s

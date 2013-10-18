@@ -1,5 +1,9 @@
   2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+	No entra dentro del while. Cambie la condicion y en vez de == puse >.
 
    2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+	Use el debug de ruby. Active la traza mediante tr on y fui avanzando con n para mirar donde se quedaba colgado el programa
 
    2.3.) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
+
+https://github.com/alu0100505023/pract05

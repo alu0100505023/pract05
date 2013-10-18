@@ -1,5 +1,4 @@
 # Implementar en este frichero la clase para crear objetos racionales
-
 require "./gcd.rb"
 
 class Fraccion

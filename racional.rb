@@ -12,14 +12,14 @@ class Fraccion
     		"#{@n}/#{@d}"
  	end
 
-	def *(other)
+	def div(other)
     		n = @n * other.d
     		d = @d * other.n
     		s = Fraccion.new(n, d)
     		s
   	end
 
- 	def div(other)
+ 	def *(other)
     		n = @n * other.n
     		d = @d * other.d
     		s = Fraccion.new(n, d)

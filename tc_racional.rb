@@ -27,7 +27,7 @@ def setup
 
   def test_mul
     rr = @r1 * @r2
-    assert_equal("3/4", rr.to_s)
+    assert_equal("4/12", rr.to_s)
   end
   
   def test_div
